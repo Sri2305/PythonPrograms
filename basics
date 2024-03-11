@@ -16,3 +16,27 @@ third element.
 tup=("cat", "dog", "rabbit")
 print(tup[-1])
 =========================================================================================================================================
+Swap the values of two variables, a and b , without using a temporary
+variable.
+=======================
+a=10
+b=15
+print("Before reverse", a, b)
+a,b=b,a
+print("After reverse", a, b)
+=========================================================================================================================================
+Write a program that takes your age as input and prints a message: "You are
+[age] years old."
+========================
+age= input("Enter your age")
+print("Your age is", age)
+=========================================================================================================================================
+Calculate the product of two numbers entered by the user and print the
+result.
+========================
+num1 = input("Enter the first number to multiply")
+num2 = input("Enter the second number to multiply")
+Result = int(num1)*int(num2)
+print("Multiplication for two numbers is ", Result)
+=========================================================================================================================================
+
