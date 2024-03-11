@@ -39,4 +39,23 @@ num2 = input("Enter the second number to multiply")
 Result = int(num1)*int(num2)
 print("Multiplication for two numbers is ", Result)
 =========================================================================================================================================
+Format the variables item = "book" and price = 25.99 into a sentence
+========================
+item = "book"
+price = 25.99
+sentence = f"the {item} costs ${price}"
+print(sentence)
+=========================================================================================================================================
+Write a function that takes an integer as input and returns "Positive" ,
+"Negative" , or "Zero" .
+===========================
+def real(num):
+    if num>0:
+        print("Number is Positive")
+    elif num<0:
+        print("Number is Negative")
+    else:
+        print("Number is Zero")
+real(-1)
+
 
