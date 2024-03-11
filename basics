@@ -1,0 +1,18 @@
+Create a variable name and assign your name to it. Print a greeting message
+using the variable.
+====================
+name = "Srilakshmi"
+print("I am ", name)
+==========================================================================================================================================
+Convert the string "42" to an integer and assign it to a variable num . Print
+the value and type of num .
+=====================
+num ="42"
+print(int(num))
+=========================================================================================================================================
+Define a tuple with three elements: "cat" , "dog" , and "rabbit" . Print the
+third element.
+=====================
+tup=("cat", "dog", "rabbit")
+print(tup[-1])
+=========================================================================================================================================
