@@ -71,14 +71,14 @@ oddeven()
 =========================================================================================================================================
 Write a program that determines if a year entered by the user is a leap year.
 ==============================
-def leapNumber():
-    num = int(input("Enter year to check if its a leap year"))
-    if num%4==0:
-        if num%100==0 or num%400!=0:
-            print("Year is Leap Year")
+def leap():
+    year = int(input("Enter the year"))
+    if year%4==0:
+        if year%100==0 or year%400!=0:
+            print(year, "is a leap year")
     else:
-        print("Year is not a Leap Year")
-leapNumber()
+        print(year, "is not a leap year")
+leap()
 =========================================================================================================================================
 
 
